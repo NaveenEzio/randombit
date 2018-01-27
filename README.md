@@ -1,2 +1,2 @@
 # randombit
-This script program will generate random numbers and calculate its hamming weight
+This script will generate random numbers and calculate its hamming weight
