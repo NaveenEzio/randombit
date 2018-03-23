@@ -1,5 +1,5 @@
 #!/bin/bash
-read -p "Enter the total count for numbers to convert into binary : " num
+read -p "Random bit generation : " num
 shuf -i 0-5000 -n $num > input.txt
 xxd -b input.txt | cut -d" " -f 2-7 >bin.txt 
 cat bin.txt | tr -d '\n' | tr -d ' ' >random.txt
